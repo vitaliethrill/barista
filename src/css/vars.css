@@ -1,0 +1,23 @@
+:root {
+  --colorDark: #212121;
+  --colorMain: #f9d2cb;
+  --colorSecondary: #a3f4dc;
+  --colorWhite: white;
+  --colorGray: #9c9c9c;
+  --colorLightGray: #fafafa;
+  --colorCancelGray: rgba(33, 33, 33, .3);
+  --fontSmall: .75rem; /* 12px */
+  --fontNormal: 1.13rem; /* 18px */
+  --fontMedium: 1.25rem; /*20px*/
+  --fontBig: 1.5rem; /* 24px */
+  --fontBiggest: 1.63rem; /* 26px */
+  --font: 'Roboto', sans-serif;
+  --fontWeightRegular: 400;
+  --fontWeightBold: 500;
+  --spacerSmall: .75rem; /* 12px */
+  --spacerRegular: 1rem; /* 16px */
+  --spacerBig: 1.88rem; /* 30px */
+}
+
+@custom-media --only-small-screen (width >= 400px);
+@custom-media --only-medium-screen (width >= 900px);
